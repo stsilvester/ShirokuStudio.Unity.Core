@@ -33,6 +33,7 @@ MonoBehaviour:
     - com.kybernetik.ult-events
     - com.cysharp.unitask
     - com.neuecc.unirx
+    - com.svermeulen.extenject
     m_IsDefault: 0
     m_Capabilities: 0
     m_ConfigSource: 4
