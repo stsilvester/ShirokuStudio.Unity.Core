@@ -3,6 +3,7 @@
     "com.cysharp.unitask": "2.5.10",
     "com.kybernetik.ult-events": "2.2.0",
     "com.neuecc.unirx": "7.1.0",
+    "com.stsilvester.naughtyattributes": "https://github.com/stsilvester/NaughtyAttributes.git#upm",
     "com.svermeulen.extenject": "9.2.0-stcf3",
     "com.unity.addressables": "1.19.19",
     "com.unity.collab-proxy": "2.0.4",
