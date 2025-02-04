@@ -9,11 +9,12 @@ jobs:
   split-upm:
     name: update upm branch
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0
-        token: ${{ secrets.UPM_AUTH_TOKEN }}
     - name: update upm branch
       run: |
         echo '### head info'
@@ -26,3 +27,4 @@ jobs:
         git push origin upm
       env:
         PKG_ROOT: Assets/Shiroku Library Core
+        GH_TOKEN: ${{ secrets.UPM_AUTH_TOKEN }}
