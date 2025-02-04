@@ -1,7 +1,7 @@
 {
     "name": "com.shirokustudio.core",
     "displayName": "Shiroku Library Core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "unity": "2021.3",
     "description": "Core utilities for game dev.",
     "keywords": [
